@@ -6,5 +6,10 @@ pipeline {
         echo 'Starting Engine'
       }
     }
+	stage('ship') {
+      steps {
+        echo 'Ship'
+      }
+    }
   }
 }
